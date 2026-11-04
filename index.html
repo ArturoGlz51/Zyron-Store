@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ZYRON: tienda gaming, simulación educativa de comercio electrónico."
+    />
+    <title>ZYRON | Tu mundo. Tus reglas.</title>
+    <link rel="icon" type="image/svg+xml" href="assets/zyron-logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- BANNER PRINCIPAL DE ZYRON -->
+
+    <template id="home-banner">
+      <section class="hero">
+        <!-- Imagen del banner -->
+        <img
+          src="assets/gta-vi-banner.jpg"
+          alt="Grand Theft Auto VI"
+          class="hero-image"
+        />
+
+        <!-- Capa oscura para leer mejor el texto -->
+        <div class="hero-shade"></div>
+
+        <!-- Información del videojuego -->
+        <div class="hero-content">
+          <span>PRÓXIMAMENTE · PREVENTA</span>
+
+          <h1>
+            GRAND THEFT<br />
+            AUTO VI
+          </h1>
+
+          <p>
+            Regresa a Vice City y descubre Leonida. Una nueva aventura de mundo
+            abierto te espera.
+          </p>
+
+          <!-- Botones -->
+          <div>
+            <button class="zy-action" data-action="buy-featured">
+              PREORDENAR AHORA
+            </button>
+
+            <button class="zy-btn" data-action="detail-featured">
+              VER DETALLES
+            </button>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <div id="app" class="app"></div>
+  </body>
+</html>
